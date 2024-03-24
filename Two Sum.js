@@ -5,14 +5,14 @@
  */
 var twoSum = function (nums, target) {
     /**
-     * PSEUDOCODE
+     * Pseudocode
      * 1. Create a numObj, where key is the nums, and value is the index
      * 2. Loop through nums array
-     *      For currentVal in nums
-     *          if target - currentNumber is inside of numObj
-     *              we found the two number that adds up to target, so return it
+     *    For currentVal in nums
+     *      if target - currentNumber is inside of numObj
+     *        we found the two number that adds up to target, so return it
      *          
-     *          add currentVal into the object with key as index
+     *      add currentVal into the object with key as index
      * 
      * 
      */
